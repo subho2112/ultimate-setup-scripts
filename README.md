@@ -7,9 +7,25 @@ This repository is designed for **hackers, retro enthusiasts, and productivity g
 
 ---
 
-## 🗂️ Repository Structure
-
-custom-setup/ │── xfce/        # XFCE scripts & tweaks │     ├── ultimate-xfce-setup.sh │     ├── wallpaper-update.sh │     └── cleanup.sh │── gnome/       # GNOME scripts & tweaks │     ├── ultimate-gnome-setup.sh │     └── ... │── kde/         # KDE scripts & tweaks │     ├── ultimate-kde-setup.sh │     └── ... │── arch/        # Arch Linux specific scripts │     ├── ultimate-arch-setup.sh │     └── ... │── README.md    # This file
+custom-setup/
+│── xfce/              # XFCE scripts & tweaks
+│   ├── ultimate-xfce-setup.sh
+│   ├── wallpaper-update.sh
+│   └── cleanup.sh
+│
+│── gnome/             # GNOME scripts & tweaks
+│   ├── ultimate-gnome-setup.sh
+│   └── ...
+│
+│── kde/               # KDE scripts & tweaks
+│   ├── ultimate-kde-setup.sh
+│   └── ...
+│
+│── arch/              # Arch Linux specific scripts
+│   ├── ultimate-arch-setup.sh
+│   └── ...
+│
+└── README.md          # This file
 
 ---
 
