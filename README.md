@@ -7,6 +7,9 @@ This repository is designed for **hackers, retro enthusiasts, and productivity g
 
 ---
 
+## 🗂️ Repository Structure
+
+```bash
 custom-setup/
 │── xfce/              # XFCE scripts & tweaks
 │   ├── ultimate-xfce-setup.sh
@@ -26,90 +29,81 @@ custom-setup/
 │   └── ...
 │
 └── README.md          # This file
+````
 
 ---
 
 ## 🌈 Features & Scripts
 
-| Script | Description | Desktop / Distro |
-|--------|-------------|----------------|
-| `ultimate-xfce-setup.sh` | XFCE full customization (panel, wallpaper, dev tools, utilities) | XFCE / Ubuntu / Mint |
-| `ultimate-gnome-setup.sh` | GNOME full customization (dock, wallpaper, dev tools) | GNOME / Ubuntu / Fedora |
-| `ultimate-kde-setup.sh` | KDE Plasma tweaks and dev tools installer | KDE / Kubuntu / Arch |
-| `wallpaper-update.sh` | Auto-download wallpapers from Unsplash | All |
-| `autostart.sh` | Start your favorite apps at login | All |
-| `cleanup.sh` | Remove cache, unnecessary packages | All |
-| `dev-install.sh` | Install programming languages & dev tools | All |
+| Script                    | Description                                                      | Desktop / Distro        |
+| ------------------------- | ---------------------------------------------------------------- | ----------------------- |
+| `ultimate-xfce-setup.sh`  | XFCE full customization (panel, wallpaper, dev tools, utilities) | XFCE / Ubuntu / Mint    |
+| `ultimate-gnome-setup.sh` | GNOME full customization (dock, wallpaper, dev tools)            | GNOME / Ubuntu / Fedora |
+| `ultimate-kde-setup.sh`   | KDE Plasma tweaks and dev tools installer                        | KDE / Kubuntu / Arch    |
+| `wallpaper-update.sh`     | Auto-download wallpapers from Unsplash                           | All                     |
+| `autostart.sh`            | Start your favorite apps at login                                | All                     |
+| `cleanup.sh`              | Remove cache, unnecessary packages                               | All                     |
+| `dev-install.sh`          | Install programming languages & dev tools                        | All                     |
 
 ---
 
 ## 🎮 Why This Repo Exists
 
-- ✅ **One-command setup** for different desktops  
-- ✅ **Retro/terminal vibes** with colorful emoji style guides  
-- ✅ **Full control over your machine** (wallpapers, panel, clock, dev tools)  
-- ✅ **Optimized for productivity & developer workflow**  
+* ✅ **One-command setup** for different desktops
+* ✅ **Retro/terminal vibes** with colorful emoji style guides
+* ✅ **Full control over your machine** (wallpapers, panel, clock, dev tools)
+* ✅ **Optimized for productivity & developer workflow**
 
 ---
 
 ## 🚀 Usage
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/custom-setup.git
-cd custom-setup
+1. **Clone the repository:**
 
-2. Navigate to your desktop environment folder, e.g., XFCE:
+   ```bash
+   git clone https://github.com/yourusername/custom-setup.git
+   cd custom-setup
+   ```
 
+2. **Navigate to your desktop environment folder, e.g., XFCE:**
 
+   ```bash
+   cd xfce
+   ```
 
-cd xfce
+3. **Make scripts executable:**
 
-3. Make scripts executable:
+   ```bash
+   chmod +x *.sh
+   ```
 
+4. **Run the ultimate setup:**
 
-
-chmod +x *.sh
-
-4. Run the ultimate setup:
-
-
-
-./ultimate-xfce-setup.sh
+   ```bash
+   ./ultimate-xfce-setup.sh
+   ```
 
 > 🔥 Sit back, watch the magic happen, and enjoy your retro-fueled Linux desktop.
 
+---
 
+## 🧩 Future Plans
 
+* More desktops: Cinnamon, MATE, i3, etc.
+* Arch-specific optimizations & AUR helper scripts
+* Terminal themes & icon packs
+* Optional GPT-powered assistant scripts for dev workflows
 
 ---
 
-🧩 Future Plans
+## ⚡ Tips for Retro Vibe
 
-More desktops: Cinnamon, MATE, i3, etc.
-
-Arch-specific optimizations & AUR helper scripts
-
-Terminal themes & icon packs
-
-Optional GPT-powered assistant scripts for dev workflows
-
-
-
----
-
-⚡ Tips for Retro Vibe
-
-Use neofetch or screenfetch for a cool terminal summary
-
-Set terminal background to black and text to green or cyan
-
-Add ASCII art in ~/.bashrc for startup vibes
-
-Combine with wallpaper-update.sh for rotating retro wallpapers
-
-
+* Use **neofetch** or **screenfetch** for a cool terminal summary
+* Set terminal background to **black** and text to **green or cyan**
+* Add ASCII art in `~/.bashrc` for startup vibes
+* Combine with `wallpaper-update.sh` for rotating retro wallpapers
 
 ---
 
 > "Customization is not just about look – it’s about workflow, control, and style." 🎨🖤
+
