@@ -24,10 +24,6 @@ custom-setup/
 │   ├── ultimate-kde-setup.sh
 │   └── ...
 │
-│── arch/              # Arch Linux specific scripts
-│   ├── ultimate-arch-setup.sh
-│   └── ...
-│
 └── README.md          # This file
 ````
 
@@ -82,28 +78,6 @@ custom-setup/
    ```bash
    ./ultimate-xfce-setup.sh
    ```
-
-> 🔥 Sit back, watch the magic happen, and enjoy your retro-fueled Linux desktop.
-
----
-
-## 🧩 Future Plans
-
-* More desktops: Cinnamon, MATE, i3, etc.
-* Arch-specific optimizations & AUR helper scripts
-* Terminal themes & icon packs
-* Optional GPT-powered assistant scripts for dev workflows
-
----
-
-## ⚡ Tips for Retro Vibe
-
-* Use **neofetch** or **screenfetch** for a cool terminal summary
-* Set terminal background to **black** and text to **green or cyan**
-* Add ASCII art in `~/.bashrc` for startup vibes
-* Combine with `wallpaper-update.sh` for rotating retro wallpapers
-
----
 
 > "Customization is not just about look – it’s about workflow, control, and style." 🎨🖤
 
