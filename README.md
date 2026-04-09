@@ -35,11 +35,7 @@ custom-setup/
 | ------------------------- | ---------------------------------------------------------------- | ----------------------- |
 | `ultimate-xfce-setup.sh`  | XFCE full customization (panel, wallpaper, dev tools, utilities) | XFCE / Ubuntu / Mint    |
 | `ultimate-gnome-setup.sh` | GNOME full customization (dock, wallpaper, dev tools)            | GNOME / Ubuntu / Fedora |
-| `ultimate-kde-setup.sh`   | KDE Plasma tweaks and dev tools installer                        | KDE / Kubuntu / Arch    |
-| `wallpaper-update.sh`     | Auto-download wallpapers from Unsplash                           | All                     |
-| `autostart.sh`            | Start your favorite apps at login                                | All                     |
-| `cleanup.sh`              | Remove cache, unnecessary packages                               | All                     |
-| `dev-install.sh`          | Install programming languages & dev tools                        | All                     |
+| `ultimate-kde-setup.sh`   | KDE Plasma tweaks and dev tools installer                        | KDE / Kubuntu /                  |
 
 ---
 
